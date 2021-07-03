@@ -12,9 +12,21 @@
     transition: all .2s linear;
 }
 body{
-    background: #111;
+    background: rgb(255, 255, 255);
     overflow-x: hidden;
 }
+h1{
+    background-color: #616161;
+    color:white;
+    font-size: 60px;
+    font-family: Century gothic;
+    width: 100%;
+    margin-top: -65px;
+    height: 70px;
+    padding-top: 0px;
+    padding-right: 90%;
+}
+
 .heading{
     text-align: center;
     margin:0 6px;
@@ -31,16 +43,16 @@ body{
     width: 80%;
     left: 200%;
     top: 2%;
-
 }
 
 header{
     position: relative;
-    top: 0; left: 0;
+    top: 0px; left: 2px;
     z-index: 1000px;
-    height:900px;
-    width: 300px;
-    background: #1a1a1a;
+    height:300px;
+    width: 1270px;
+    right: 300;
+    background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,11 +60,10 @@ header{
     text-align: center;
 }
 header .user img{
-    
-    height: 90px;
-    width: 90px;
+    height: 99px;
+    width: 99px;
     position: relative;
-    top: 0px;
+    top: 2px;
     right: 0px;
     border-radius: 50%;
     object-fit:cover;
@@ -62,28 +73,58 @@ header .user img{
 }
 header .user .name {
     font-size: 30px;
-    color:rgb(255, 255, 255);
+    color:rgb(55, 61, 55);
+
+}
+ul li{
+    list-style: none;
+    font-family: Century gothic;
 
 }
 header .user .post{
     font-size: 30px;
     color:rgb(190, 0, 0);
 }
-header .navbar ul{
-    list-style: none;
-    padding: 0px 0px;
-}
-header .navbar p{
-    display: block;
-    padding: 100px;
-    margin: 30px;
-    background: #333;
-    color: #fff;
-    font-size: 2px;
-    border-radius: 5px;
-
+.ident{
+    width:98%;
+    position:relative ;
+    justify-content: center;
+    align-items: center;
+    padding:20px 50px;
+    box-sizing: content-box;
+    background: #e0e0e0;
+    transition: all 0.3s ease;
 }
 
 
+.premierh2{
+    color:white;
+    width: 1230px;
+    padding: 10px;
+    left: 10px;
+    right:10px;
+    margin-top: -35px;
+    background: #000000;
+}
 
+.premierul{
+    color:#fffefe;
+    font-family: century gothic;
+    margin: 10px 15px;
+}
 
+.premierul a{
+    color:#e99400;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+.premierol li{
+    padding: 2px 0px;
+}
+
+%;
+    }
+
+    
